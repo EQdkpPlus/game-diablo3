@@ -64,6 +64,22 @@ if(!class_exists('diablo3')) {
 		protected function load_filters($langs){
 			return array();
 		}
+
+		public function profilefields(){
+			$xml_fields = array(
+				'gender'	=> array(
+					'type'			=> 'dropdown',
+					'category'		=> 'character',
+					'lang'			=> 'uc_gender',
+					'options'		=> array('male' => 'uc_male', 'female' => 'uc_female'),
+					'tolang'		=> true,
+					'undeletable'	=> true,
+					'sort'			=> 1
+				),
+			);
+			return $xml_fields;
+		}
+
 	}
 }
 ?>
