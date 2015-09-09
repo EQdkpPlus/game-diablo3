@@ -30,6 +30,7 @@ $german_array = array(
 		3	=> 'Mönch',
 		4	=> 'Hexendoktor',
 		5	=> 'Zauberer',
+		6	=> 'Kreuzritter',
 	),
 	'roles' => array(
 		1	=> 'Heiler',
