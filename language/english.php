@@ -30,6 +30,7 @@ $english_array = array(
 		3	=> 'Monk',
 		4	=> 'Witch Doctor',
 		5	=> 'Wizard',
+		6	=> 'Crusader',
 	),
 	'roles' => array(
 		1	=> 'Healer',
