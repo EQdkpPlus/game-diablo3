@@ -51,7 +51,7 @@ if(!class_exists('diablo3')) {
 		public $default_roles = array(
 			1	=> array(4),
 			2	=> array(2,4,5),
-			3	=> array(1,3),
+			3	=> array(1,3,6),
 		);
 
 		protected $glang		= array();
