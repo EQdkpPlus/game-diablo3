@@ -41,5 +41,8 @@ $english_array = array(
 		'diablo3'					=> 'Diablo 3',
 		'uc_class'					=> 'Class',
 	),
+	"uc_gender" => 'Gender',
+	"uc_male" => 'Male',
+	"uc_female" => 'Female',
 );
 ?>
