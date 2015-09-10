@@ -54,6 +54,15 @@ if(!class_exists('diablo3')) {
 			3	=> array(1,3,6),
 		);
 
+		protected $class_colors = array(
+			1	=> '#B52615',
+			2	=> '#735289',
+			3	=> '#E5D34D',
+			4	=> '#46C230',
+			5	=> '#5FC6E5',
+			6	=> '#FFFFFF',
+		);
+
 		protected $glang		= array();
 		protected $lang_file	= array();
 		protected $path			= '';
