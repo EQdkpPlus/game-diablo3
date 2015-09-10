@@ -51,7 +51,16 @@ if(!class_exists('diablo3')) {
 		public $default_roles = array(
 			1	=> array(4),
 			2	=> array(2,4,5),
-			3	=> array(1,3),
+			3	=> array(1,3,6),
+		);
+
+		protected $class_colors = array(
+			1	=> '#B52615',
+			2	=> '#735289',
+			3	=> '#E5D34D',
+			4	=> '#46C230',
+			5	=> '#5FC6E5',
+			6	=> '#FFFFFF',
 		);
 
 		protected $glang		= array();
@@ -64,6 +73,22 @@ if(!class_exists('diablo3')) {
 		protected function load_filters($langs){
 			return array();
 		}
+
+		public function profilefields(){
+			$xml_fields = array(
+				'gender'	=> array(
+					'type'			=> 'dropdown',
+					'category'		=> 'character',
+					'lang'			=> 'uc_gender',
+					'options'		=> array('male' => 'uc_male', 'female' => 'uc_female'),
+					'tolang'		=> true,
+					'undeletable'	=> true,
+					'sort'			=> 1
+				),
+			);
+			return $xml_fields;
+		}
+
 	}
 }
 ?>

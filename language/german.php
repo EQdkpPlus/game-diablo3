@@ -30,6 +30,7 @@ $german_array = array(
 		3	=> 'Mönch',
 		4	=> 'Hexendoktor',
 		5	=> 'Zauberer',
+		6	=> 'Kreuzritter',
 	),
 	'roles' => array(
 		1	=> 'Heiler',
@@ -39,6 +40,9 @@ $german_array = array(
 	'lang' => array(
 		'diablo3'					=> 'Diablo 3',
 		'uc_class'					=> 'Klasse',
+		'uc_gender'					=> 'Geschlecht',
+		'uc_male'					=> 'Männlich',
+		'uc_female'					=> 'Weiblich',
 	),
 );
 ?>

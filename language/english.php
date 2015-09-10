@@ -30,6 +30,7 @@ $english_array = array(
 		3	=> 'Monk',
 		4	=> 'Witch Doctor',
 		5	=> 'Wizard',
+		6	=> 'Crusader',
 	),
 	'roles' => array(
 		1	=> 'Healer',
@@ -37,8 +38,11 @@ $english_array = array(
 		3	=> 'Melee',
 	),
 	'lang' => array(
-		'diablo3'					=> 'Diablo 3',
-		'uc_class'					=> 'Class',
+		'diablo3'		=> 'Diablo 3',
+		'uc_class'		=> 'Class',
+		'uc_gender' 		=> 'Gender',
+		'uc_male' 		=> 'Male',
+		'uc_female' 		=> 'Female',
 	),
 );
 ?>
