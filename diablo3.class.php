@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('diablo3')) {
 	class diablo3 extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '1.2.1';
+		public $version				= '1.2.2';
 		protected $this_game		= 'diablo3';
 		protected $types			= array('classes');
 		protected $classes			= array();
